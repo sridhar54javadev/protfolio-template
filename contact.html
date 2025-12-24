@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | kalaiyarasan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h3><span>k</span>alaiyarasasn</h3>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+           <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="header-list">
+            <li><a href="index.html" class="fade-link" data-link>Home</a></li>
+            <li><a href="about.html" class="fade-link" data-link>About</a></li>
+            <li><a href="project.html" class="fade-link" data-link>Projects</a></li>
+            <li><a href="contact.html" class="fade-link data-link active">Contact</a></li>
+        </ul>
+        <ul class="header-list-icon">
+            <li><a href="https://www.linkedin.com/in/kalaiyarasan-r-291a6a342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://github.com/arasan172004-lab" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="mailto:kalaiyarasanr562@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </header>
+
+    <section class="contact" id="contact">
+        <div class="container fade-in-element">
+            <h3>Get In Touch</h3>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Salem, Tamil Nadu, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>kalaiyarasanr562@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91 76038 24511</p>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://github.com/arasan172004-lab" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kalaiyarasan-r-291a6a342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:kalaiyarasanr562@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Formspree Integration to receive emails -->
+                <form class="contact-form" action="https://formspree.io/f/" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
